@@ -19,7 +19,6 @@ public class MovieServiceImpl implements MovieService {
     public MovieServiceImpl(MovieRepository movieRepository) {
         this.movieRepository = movieRepository;
     }
-
     @Override
     public Movie saveData(Movie movie) {
         return movieRepository.save(movie);
