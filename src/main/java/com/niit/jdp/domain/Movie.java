@@ -5,5 +5,15 @@
  */
 package com.niit.jdp.domain;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Movie {
+    @Id
+    int movieId;
+    String movieName;
+    String actorName;
+    String directorName;
+
 }
