@@ -16,4 +16,13 @@ public class Movie {
     String actorName;
     String directorName;
 
+    public Movie() {
+    }
+
+    public Movie(int movieId, String movieName, String actorName, String directorName) {
+        this.movieId = movieId;
+        this.movieName = movieName;
+        this.actorName = actorName;
+        this.directorName = directorName;
+    }
 }
