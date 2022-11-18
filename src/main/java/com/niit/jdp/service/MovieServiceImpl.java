@@ -5,5 +5,13 @@
  */
 package com.niit.jdp.service;
 
-public class MovieServiceImpl {
+import com.niit.jdp.domain.Movie;
+import org.springframework.stereotype.Service;
+
+@Service
+public class MovieServiceImpl implements MovieService {
+    @Override
+    public String saveData(Movie movie) {
+        return null;
+    }
 }
